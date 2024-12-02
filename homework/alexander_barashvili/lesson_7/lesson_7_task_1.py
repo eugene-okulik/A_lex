@@ -1,7 +1,7 @@
 happy_number = 777
 
 user_number = int(input("Hey buddy, try to guess the number and win a prize."
-                            "\nEnter the number and test your luck ;)\n"))
+                        "\nEnter the number and test your luck ;)\n"))
 
 while True:
     if user_number == happy_number:
