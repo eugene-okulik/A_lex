@@ -11,6 +11,7 @@ def repeat(func):
 def example(text):
     print(text)
 
+
 @repeat
 def example1():
     print('I Love Python')

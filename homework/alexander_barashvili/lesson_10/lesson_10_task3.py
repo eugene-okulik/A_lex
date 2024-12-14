@@ -14,6 +14,7 @@ def calculator(func):
         return func(number1, number2, operation)
     return wrapper
 
+
 @calculator
 def calc(first, second, operation=None):
     if operation == '+':
