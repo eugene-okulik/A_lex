@@ -2,14 +2,12 @@ class Book:
     material = 'бумага'
     is_text = True
 
-
     def __init__(self, book_name, autor, count_pages, isbn, is_reserved):
         self.book_name = book_name
         self.autor = autor
         self.count_pages = count_pages
         self.isbn = isbn
         self.is_reserved = is_reserved
-
 
     def check_reserve_book(self):
         print(f"Название: {self.book_name}, Автор: {self.autor}, страниц: {self.count_pages}, "
@@ -22,7 +20,6 @@ class SchoolBooks(Book):
         self.subject = subject
         self.pupils_class = pupils_class
         self.is_exercise = is_exercise
-
 
     def check_reserve_book(self):
         if self.is_reserved:
