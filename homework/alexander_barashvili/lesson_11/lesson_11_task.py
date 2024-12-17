@@ -12,8 +12,8 @@ class Book:
 
 
     def check_reserve_book(self):
-        print(f'Название: {self.book_name}, Автор: {self.autor}, страниц: {self.count_pages}, '
-              f'материал: {self.material}{', зарезервирована' if self.is_reserved else ''}')
+        print(f"Название: {self.book_name}, Автор: {self.autor}, страниц: {self.count_pages}, "
+              f"материал: {self.material}{', зарезервирована' if self.is_reserved else ''}")
 
 
 class SchoolBooks(Book):
@@ -29,8 +29,8 @@ class SchoolBooks(Book):
             self.is_reserved = ', зарезервирована'
         else:
             self.is_reserved = ''
-        print(f'Название: {self.book_name}, Автор: {self.autor}, страниц: {self.count_pages}, '
-              f'предмет: {self.subject}, класс: {self.pupils_class}{', зарезервирована' if self.is_reserved else ''}')
+        print(f"Название: {self.book_name}, Автор: {self.autor}, страниц: {self.count_pages}, "
+              f"предмет: {self.subject}, класс: {self.pupils_class}{', зарезервирована' if self.is_reserved else ''}")
 
 
 book1 = Book('Идиот', 'Достоевский', 500, 501512, None)
